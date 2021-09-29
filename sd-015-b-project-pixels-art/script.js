@@ -1,14 +1,14 @@
-let elementBlack = document.getElementById('black');
-let elementColorPallete = document.getElementById('color-palette');
-let elementPixelBoard = document.getElementById('pixel-board')
-let elementColor = document.getElementsByClassName('color');
-let elementPixel = document.getElementsByClassName('pixel')
-let elementButton = document.getElementById('clear-board');
-let getColorPallete = document.querySelectorAll('#color-palette section');
-let colorBlack = getColorPallete[0].style.backgroundColor = 'black'; 
-let color2 = getColorPallete[1].style.backgroundColor = "rgb" + "(" + getAleatoryColor() + "," + getAleatoryColor() + "," + getAleatoryColor() + ")";
-let color3 = getColorPallete[2].style.backgroundColor = "rgb" + "(" + getAleatoryColor() + "," + getAleatoryColor() + "," + getAleatoryColor() + ")";
-let color4 = getColorPallete[3].style.backgroundColor = "rgb" + "(" + getAleatoryColor() + "," + getAleatoryColor() + "," + getAleatoryColor() + ")";
+const elementBlack = document.getElementById('black');
+const elementColorPallete = document.getElementById('color-palette');
+const elementPixelBoard = document.getElementById('pixel-board');
+const elementColor = document.getElementsByClassName('color');
+const elementPixel = document.getElementsByClassName('pixel');
+const elementButton = document.getElementById('clear-board');
+const getColorPallete = document.querySelectorAll('#color-palette section');
+const colorBlack = getColorPallete[0].style.backgroundColor = 'black'; 
+const color2 = getColorPallete[1].style.backgroundColor = "rgb" + "(" + getAleatoryColor() + "," + getAleatoryColor() + "," + getAleatoryColor() + ")";
+const color3 = getColorPallete[2].style.backgroundColor = "rgb" + "(" + getAleatoryColor() + "," + getAleatoryColor() + "," + getAleatoryColor() + ")";
+const color4 = getColorPallete[3].style.backgroundColor = "rgb" + "(" + getAleatoryColor() + "," + getAleatoryColor() + "," + getAleatoryColor() + ")";
 
 window.onload = function() {
     blackSelected()

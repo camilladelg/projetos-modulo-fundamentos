@@ -30,8 +30,8 @@ p {
     justify-content: center;
 }
 .color {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin: 0px;
     border: 1px solid black;
 }
@@ -43,7 +43,7 @@ p {
 .pixel {
     display: table-cell;
     border: 1px solid black;
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     background-color: rgb(255, 255, 255);
 } 
